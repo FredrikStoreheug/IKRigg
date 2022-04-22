@@ -1,0 +1,16 @@
+{
+  "name": "com.varjo.iksystem",
+  "version": "0.0.1",
+  "displayName": "IKSystem",
+  "description": "A simple IK system for VR avatars built on Unitys Animation rigging package",
+  "unity": "2019.1",
+  "unityRelease": "0b5",
+  "dependencies": {
+    "com.Unity.animation.rigging": "1.0.0"
+  },
+  "author": {
+    "name": "Fredrik Storehaug",
+    "email": "fredrik@varjo.com",
+    "url": "https://www.varjo.com"
+  }
+}
