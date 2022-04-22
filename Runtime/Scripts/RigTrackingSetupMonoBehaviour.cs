@@ -11,11 +11,11 @@ namespace varjo.iksystem
         [SerializeField] private FollowTransform _leftHand, _rightHand;
         [SerializeField] private Head _head;
 
-        public void Construct(Transform rootParent, Transform headTarget, Transform LeftHandTarget, Transform RightHandTarget)
+        public void Construct(Transform headTarget, Transform LeftHandTarget, Transform RightHandTarget)
         {
             _leftHand.Construct(LeftHandTarget);
             _rightHand.Construct(RightHandTarget);
-            _head.Construct(headTarget, rootParent);
+            _head.Construct(headTarget, transform);
         }
         
         

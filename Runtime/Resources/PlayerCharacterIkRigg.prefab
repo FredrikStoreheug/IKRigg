@@ -728,6 +728,7 @@ MonoBehaviour:
   _leftHand: {fileID: 1149719474}
   _rightHand: {fileID: 959596539}
   _head: {fileID: 1958940639}
+  _ikRoot: {fileID: 9002179933367046514}
 --- !u!1 &8892396690942820511
 GameObject:
   m_ObjectHideFlags: 0
