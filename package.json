@@ -6,7 +6,7 @@
   "unity": "2019.1",
   "unityRelease": "0b5",
   "dependencies": {
-    "com.Unity.animation.rigging": "1.0.0"
+    "com.unity.animation.rigging": "1.0.3"
   },
   "author": {
     "name": "Fredrik Storehaug",
