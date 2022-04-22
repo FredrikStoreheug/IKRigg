@@ -12,7 +12,7 @@ namespace varjo.iksystem
         private RigTrackingSetupMonoBehaviour _resourcePrefab;
         private RigTrackingSetupMonoBehaviour _instance;
 
-        TrackingCharacterRigg(Transform rootparent, Transform headTarget, Transform leftArmTarget, Transform rightArmTarget)
+        public TrackingCharacterRigg(Transform rootparent, Transform headTarget, Transform leftArmTarget, Transform rightArmTarget)
         {
             _instance = GameObject.Instantiate<RigTrackingSetupMonoBehaviour>(_resourcePrefab);
             _instance.Construct(rootparent, headTarget, leftArmTarget, rightArmTarget); //if we use zenject, we can turn this script into an installer and work from there.
